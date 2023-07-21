@@ -19,12 +19,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;  /* padding to reduce the image size */
 }
 
 .img {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* makes the image fit inside the container, maintaining its aspect ratio */
 }
 </style>
 </head>
@@ -52,7 +53,7 @@ body {
   </div>
 
   <div class="page">
-    <img class="img" src="channel-pictures/Contact.png" alt="Contact Page Image">
+    <img class="img" src="channel-pictures/Contact.png" alt="Contract Page Image">
   </div>
 </div>
 
